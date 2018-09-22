@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, a {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -159,21 +159,16 @@ h1, h2, h3, h4, p {
 	font-size: 1.2em;
 	color: rgba(100,100,100, .3);
 	text-shadow: 2px 1px #000;
-	/* margin-top: 20px; */
 	margin-bottom: 20px;  
 }
 
 .DiscoBtn {
 	width: 50%;
 	font-weight: bold;
-	/* margin-bottom: 5%; */
-	/* margin:0 auto; */
 	margin-left: 25%;
 	margin-top: 50%;
-	/* max-height: 50px; */
 	min-height: 39px;
 	background-color: #3f51b5 !important;
-	/* border-color: #3f51b5; */
 }
 
 .danarVid {
@@ -183,7 +178,6 @@ h1, h2, h3, h4, p {
 
 #discography .btn-primary:hover {
 	color: #fff;	
-	/* background-color: #59b6f9 !important; */
 }
 
 .modal-content {
@@ -294,13 +288,6 @@ html, body {
 		font-size: 2em;
 	}
 
-	/* .aboutSection {
-		width: 100%;
-	} */
-	/* .musicPortrait {
-		max-height: 300px;
-	} */
-
 	.nameTitle {
 		margin-top: 69%;
 		margin-left: 13%;
@@ -321,9 +308,6 @@ html, body {
 	.historyTitle {
 		font-size: 2em;
 	}
-	/* .musicPortrait {
-		max-height: 300px;
-	} */
 
 	.aboutPicImg {
 		width: 100%;
@@ -338,9 +322,6 @@ html, body {
 
 @media only screen and (min-width: 667px) and (max-width: 736px) {
 	
-	/* body {
-		width: 112%;
-	} */
 	.DiscoBtn {
 		margin-top: 25%;
 		margin-bottom: 25%;
@@ -364,10 +345,6 @@ html, body {
 		margin-top: 62%;
 	
 	}
-
-	/* .musicPortrait {
-		max-height: 300px;
-	} */
 }
 
 @media only screen and (min-width: 736px) and (max-width: 812px) {
@@ -384,7 +361,6 @@ html, body {
 @media only screen and (min-width: 812px) and (max-width: 1024px) {
     .nameTitle {
 		margin-top: 62%;
-	
 	}
 }
 
