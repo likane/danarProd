@@ -11,8 +11,8 @@ h1, h2, h3, h4, p {
 .row {
 	min-height: 650px;
 	background-color: black;
-	margin-left: 0px !important;
-	margin-right: 0px !important;
+	/* margin-left: 0px !important;
+	margin-right: 0px !important; */
 }
 
 .container-fluid {
@@ -236,6 +236,10 @@ h1, h2, h3, h4, p {
 	margin: 0px 15px 0px 15px
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 
 /* media queries:
 400
@@ -248,9 +252,11 @@ h1, h2, h3, h4, p {
 
 @media only screen and (max-width: 400px) {
 
-		/* body {
-			width: 113%;
-		} */
+	html, body {
+		margin: 0px;
+		height: 100%;
+	}
+
 	.nameTitle {
 		margin-top: 54%;
 	}
@@ -274,9 +280,11 @@ h1, h2, h3, h4, p {
 
 @media only screen and (min-width: 400px) and (max-width: 568px) {
    
-	/* body {
-		width: 113%;
-	} */
+	html, body {
+		margin: 0;
+		height: 100%;
+	}
+
 	.DiscoBtn {
 		margin-top: 25%;
 		margin-bottom: 25%;
@@ -300,7 +308,12 @@ h1, h2, h3, h4, p {
 }
 
 @media only screen and (min-width: 568px) and (max-width: 667px) {
-    .DiscoBtn {
+	html, body {
+		margin: 0;
+		height: 100%;
+	}
+	
+	.DiscoBtn {
 		margin-top: 25%;
 		margin-bottom: 25%;
 	}
@@ -325,9 +338,9 @@ h1, h2, h3, h4, p {
 
 @media only screen and (min-width: 667px) and (max-width: 736px) {
 	
-	body {
+	/* body {
 		width: 112%;
-	}
+	} */
 	.DiscoBtn {
 		margin-top: 25%;
 		margin-bottom: 25%;
@@ -361,6 +374,10 @@ h1, h2, h3, h4, p {
     .nameTitle {
 		margin-top: 62%;
 	
+	}
+	.DiscoBtn {
+		margin-top: 25%;
+		margin-bottom: 25%;
 	}
 }
 
