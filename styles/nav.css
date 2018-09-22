@@ -1,0 +1,33 @@
+h1, h2, h3, h4, p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+nav {
+	width: 100%;
+}
+
+.navbar {
+	background-color:rgba(0,0,0,.7) !important;
+
+}
+
+.navTop {
+	min-height: 80px;
+}
+
+.fa:hover{
+	color:#59b6f9;
+}
+
+.socialFooter {
+	list-style: none;
+	display: inline-flex;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+.fa {
+	color: white;
+	margin: 0px 15px 0px 15px
+
+}

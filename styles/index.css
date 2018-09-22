@@ -1,0 +1,378 @@
+h1, h2, h3, h4, p {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar .nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1.5rem;
+}
+
+.row {
+	min-height: 650px;
+	background-color: black;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.container-fluid {
+	padding-right:0px !important;
+	padding-left: 0px !important;
+}
+
+#danarVidRow {
+	max-height: 500px !important;
+}
+
+.introSection {
+	background-image: url("../assets/RobWalking.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nameTitle{
+	font-size: 7em;
+	color: rgba(0,0,0,.8);
+	margin-left: 2%;
+	margin-top: 35%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+}
+
+
+.aboutSection  {
+	background-color: #424040;
+	padding-top: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: left;
+}
+
+.aboutSection p {
+	color:#fff;
+
+}
+
+.bio {	
+	margin-left: 40px;
+}
+
+.aboutPicImg {
+	display: block;
+	width: 90%;
+	margin:0 auto;
+	padding-bottom: 5px;
+	max-width: 110%;
+  	height: auto;
+  	padding-left: 5%;	
+}
+
+.aboutPic {
+	display: inline;
+	background-color: #424040;
+	padding-top: 5%;
+}
+
+.historyTitle {
+	font-size: 3em;
+	color: #fff;
+	margin-top: 2%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+}
+
+.subnameTitle{
+	font-size: 3.5em;
+	color: rgba(0,0,0,.8);
+	float: right;
+	margin-left: 55%;
+	text-outline: 3px 3px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+	padding-right: 10px;
+}
+
+.spotifyPlayer {
+	display: inline;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.spotifyList {
+	display: block;
+	width: 80%;
+	margin:0 auto;
+}
+
+.workedWith {
+	background-image: url("../assets/RobYoung.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.outroSection {
+	background-image: url("../assets/RobBoard.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.outroTitle {
+	font-size: 3em;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+.workedWithOne {
+	float: left;
+	text-align: left;
+	margin-top: 10%;
+}
+
+.soundCloudList{
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+
+.youtubeList{
+	margin-left: 10%;
+}
+.musicPortrait {
+  
+  max-width: 110%;
+  height: auto;
+  float: right;
+  margin: 0px;
+  padding: 0px; 
+}
+
+.outroWorkedWith {
+	font-size: 1.2em;
+	color: rgba(100,100,100, .3);
+	text-shadow: 2px 1px #000;
+	/* margin-top: 20px; */
+	margin-bottom: 20px;  
+}
+
+.DiscoBtn {
+	width: 50%;
+	font-weight: bold;
+	/* margin-bottom: 5%; */
+	/* margin:0 auto; */
+	margin-left: 25%;
+	margin-top: 50%;
+	/* max-height: 50px; */
+	min-height: 39px;
+	background-color: #3f51b5 !important;
+	/* border-color: #3f51b5; */
+}
+
+.danarVid {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#discography .btn-primary:hover {
+	color: #fff;	
+	/* background-color: #59b6f9 !important; */
+}
+
+.modal-content {
+	background-color: #424040 !important;	
+}
+
+.modal-content .close,h5,h2,h1,p, td, thead, th {
+	color: #fff;
+}
+
+.modal-body {
+	padding: 0px;
+	overflow: auto;
+}
+
+.contactSection {
+	text-align: center;
+	background-color: #424040;
+}
+
+.contactTitle {
+	font-size: 3em;
+	color: #fff;
+	margin-top: 3%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+}
+
+.contactInfo h3 {
+	color: #fff;
+}
+
+.contactInfo p {
+	color: rgba(0,0,0, 1);
+}
+
+.contactInfo p:hover {
+	color: #fff;
+}
+
+.socialFooter {
+	list-style: none;
+	display: inline-flex;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+.fa {
+	font-size: 1.2em;
+	color: #fff;
+	margin: 0px 15px 0px 15px
+}
+
+
+/* media queries:
+400
+568
+667
+736
+812
+1024
+1366 */
+
+@media only screen and (max-width: 400px) {
+
+		/* body {
+			width: 113%;
+		} */
+	.nameTitle {
+		margin-top: 54%;
+	}
+    .introSection {
+		width: 100%;
+	}
+
+	.aboutSection {
+		width: 100%;
+	}
+
+	.DiscoBtn {
+		margin-top: 25%;
+		margin-bottom: 25%;
+	}
+
+	.historyTitle {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 568px) {
+   
+	/* body {
+		width: 113%;
+	} */
+	.DiscoBtn {
+		margin-top: 25%;
+		margin-bottom: 25%;
+	}
+
+	.historyTitle {
+		font-size: 2em;
+	}
+
+	/* .aboutSection {
+		width: 100%;
+	} */
+	/* .musicPortrait {
+		max-height: 300px;
+	} */
+
+	.nameTitle {
+		margin-top: 69%;
+		margin-left: 13%;
+	}
+}
+
+@media only screen and (min-width: 568px) and (max-width: 667px) {
+    .DiscoBtn {
+		margin-top: 25%;
+		margin-bottom: 25%;
+	}
+
+	.historyTitle {
+		font-size: 2em;
+	}
+	/* .musicPortrait {
+		max-height: 300px;
+	} */
+
+	.aboutPicImg {
+		width: 100%;
+		margin-left: 20%;
+	}
+
+	.nameTitle {
+		margin-top: 64%;
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (min-width: 667px) and (max-width: 736px) {
+	
+	body {
+		width: 112%;
+	}
+	.DiscoBtn {
+		margin-top: 25%;
+		margin-bottom: 25%;
+	}
+
+	.aboutPicImg {
+		width: 100%;
+		margin-left: 25%;
+	}
+
+	.aboutPic {
+		display: flex
+	}
+
+	.historyTitle {
+		
+		font-size: 2em;
+	}
+
+	.nameTitle {
+		margin-top: 62%;
+	
+	}
+
+	/* .musicPortrait {
+		max-height: 300px;
+	} */
+}
+
+@media only screen and (min-width: 736px) and (max-width: 812px) {
+    .nameTitle {
+		margin-top: 62%;
+	
+	}
+}
+
+@media only screen and (min-width: 812px) and (max-width: 1024px) {
+    .nameTitle {
+		margin-top: 62%;
+	
+	}
+}
+
+/* @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    
+} */
+
+
